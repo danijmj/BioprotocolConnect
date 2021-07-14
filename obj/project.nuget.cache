@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "iUdr/3p9o0wFIi73eJTjKacSCUDD71gPmdGJphwcD6anOrh2ADtKrJ6AgTVths5UJ23hmCx1XcB6EommQXhhvA==",
+  "success": true,
+  "projectFilePath": "/home/daniel/trabajo/proyectos/hercules/BioprotocolConnect/BioprotocolConnect.csproj",
+  "expectedPackageFiles": [
+    "/home/daniel/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/daniel/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/daniel/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/home/daniel/.nuget/packages/selenium.webdriver/3.141.0/selenium.webdriver.3.141.0.nupkg.sha512",
+    "/home/daniel/.nuget/packages/selenium.webdriver.chromedriver/87.0.4280.8800/selenium.webdriver.chromedriver.87.0.4280.8800.nupkg.sha512",
+    "/home/daniel/.nuget/packages/swashbuckle.aspnetcore/6.1.4/swashbuckle.aspnetcore.6.1.4.nupkg.sha512",
+    "/home/daniel/.nuget/packages/swashbuckle.aspnetcore.swagger/6.1.4/swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",
+    "/home/daniel/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.1.4/swashbuckle.aspnetcore.swaggergen.6.1.4.nupkg.sha512",
+    "/home/daniel/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.1.4/swashbuckle.aspnetcore.swaggerui.6.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}

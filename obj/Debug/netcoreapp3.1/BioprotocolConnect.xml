@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BioprotocolConnect</name>
+    </assembly>
+    <members>
+        <member name="M:BioprotocolConnect.Controllers.APIController.GetProtocols(System.String)">
+             <summary>
+             Get all protocols from a specified user account and RO
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /github/GetProtocols?user=1257920
+            
+             </remarks>
+             <param name="userId">The user id in the application</param>
+             <returns></returns>
+             <response code="200">Ok</response>
+             <response code="400">Invalid app</response> 
+             <response code="500">Oops! Something went wrong</response> 
+        </member>
+        <member name="M:BioprotocolConnect.ROs.Protocols.AppCore.ROProtocol.GetROInfo">
+            <summary>
+            Read the RO main data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BioprotocolConnect.ROs.Protocols.AppCore.ROProtocol.getListVal(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Runs over each list and get all data
+            </summary>
+            <param name="item">The parent item from which to loop the item </param>
+            <returns></returns>
+        </member>
+        <member name="M:BioprotocolConnect.ROs.Protocols.AppCore.ROProtocol.GetCathegories">
+            <summary>
+            Get all cathegories from the webpage
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BioprotocolConnect.ROs.Protocols.AppCore.ROProtocol.GetkeyWords">
+            <summary>
+            Get the keywords
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BioprotocolConnect.ROs.Protocols.AppCore.ROProtocol.GetTitle">
+            <summary>
+            Get the title from the page
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BioprotocolConnect.ROs.Protocols.AppCore.ROProtocol.GetUsers(BioprotocolConnect.ROs.Protocols.Models.Protocol@)">
+            <summary>
+            Read the RO main data
+            </summary>
+            <param name="protocol">Referenced protocol where add the user to him</param>
+        </member>
+        <member name="M:BioprotocolConnect.ROs.Protocols.AppCore.ROProtocol.GetMetaData(BioprotocolConnect.ROs.Protocols.Models.Protocol@)">
+            <summary>
+            Get all metadata, like the RO DOI, the published date or the published info
+            </summary>
+            <param name="protocol">Referenced protocol where add the user to him</param>
+        </member>
+        <member name="M:BioprotocolConnect.ROs.Protocols.AppCore.ROProtocolUser.GetUserInfo">
+            <summary>
+            Method to search throw a webpage in a user profile page
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BioprotocolConnect.ROs.Protocols.AppCore.ROProtocolUser.GetROsUrl(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Get all ROs urls from ROs section 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BioprotocolConnect.ROs.Protocols.AppCore.ROProtocolUser.GetROsUser">
+            <summary>
+            Get all Protocols basic info to go over each element lather
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BioprotocolConnect.ROs.Protocols.AppCore.ROProtocolUser.GetUserUrl(System.String)">
+            <summary>
+            Static function to get a user url with their user id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BioprotocolConnect.ROs.Protocols.Controllers.ROProtocolLogic.GetListProtocols">
+            <summary>
+            Method to get all protocol,
+            This method will be implemented by the function
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BioprotocolConnect.ROs.Protocols.Controllers.ROProtocolLogic.BrowseTheCatalog">
+            <summary>
+            Open the browser (Chrome) and visit each of the catalog webpages of
+            https://bio-protocol.org
+            </summary>
+        </member>
+        <member name="M:BioprotocolConnect.ROs.Protocols.Controllers.ROProtocolLogic.GetDriver">
+            <summary>
+            Configure and return the web driver (chrome for example)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BioprotocolConnect.ROs.Protocols.Controllers.ROProtocolLogic.GetProtocolUrl(System.String)">
+            <summary>
+            Get a url with a given id 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BioprotocolConnect.ROs.Protocols.Controllers.ROProtocolLogic.setCookies">
+            <summary>
+            Generate some cookies to init a session 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BioprotocolConnect.ROs.Protocols.ROProtocolInterface.GetListProtocols">
+            <summary>
+            Method to get all protocol,
+            This method will be implemented by the function
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
